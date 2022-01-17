@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(image/coverc.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+nav{
+    width: 50%;
+    margin-top: 40px;
+    background-color:rgb(26 65 92 / 78%);
+    filter: blur(50%);
+    float: right;
+    border-top-left-radius: 2px;
+}
+ul{
+   display: flex;
+   justify-content: space-between;
+   padding: 35px;
+   list-style-type: none;
+   color: white;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-family: Segoe UI;
+    
+    
+}
+a:hover{
+    border-bottom: 3px solid white;
+    border-width: 5%;
+    transition: 1s linear;
+}
+.crew1{
+    width: 50%;
+    float: left;
+}
+.crew1 h5{
+    font-family: Segoe UI;
+    text-transform: uppercase;
+    color: white;
+   margin-left: 20%;
+    margin-top: 13%;
+    font-weight: 150;
+    font-size: 20px;
+     
+}
+h1 {
+    font-family: Segoe UI;
+    text-transform: uppercase;
+    color: white;
+    margin-left: 20%;
+    font-weight: 350;
+    font-size: 420%;
+    
+}
+.crew1 p{
+    font-family: Segoe UI;
+    color: white;
+    margin-left: 20%;
+    margin-top: 15px;
+    font-weight: 150;
+    font-size: 18px;
+    width: 70%;
+    text-align: justify;
+
+     
+}
+.crew1 h6{
+    font-family: Segoe UI;
+    text-transform: uppercase;
+    color: white;
+    margin-left: 20%;
+    margin-top: 30%;
+    font-weight: 150;
+    font-size: 20px;
+     
+}
+.image img{
+    width: 50%;
+    margin-left: -100px;
+}
+

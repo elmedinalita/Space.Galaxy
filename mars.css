@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(image/mars.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+nav{
+    width: 50%;
+    margin-top: 40px;
+    background-color:rgba(3, 4, 4, 0.78);
+    filter: blur(50%);
+    float: right;
+    border-top-left-radius: 2px;
+}
+ul{
+   display: flex;
+   justify-content: space-between;
+   padding: 35px;
+   list-style-type: none;
+   color: white;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-family: Segoe UI;
+    
+    
+}
+a:hover{
+    border-bottom: 3px solid white;
+    border-width: 5%;
+    transition: 1s linear;
+}
+
+.mars{
+    width: 50%;
+    float: right;
+}
+.mars h5{
+    font-family: Segoe UI;
+    text-transform: uppercase;
+    color: white;
+    margin-left: 20%;
+    margin-top: 30%;
+    font-weight: 150;
+    font-size: 20px;
+     
+}
+h1 {
+    font-family: Segoe UI;
+    text-transform: uppercase;
+    color: white;
+    margin-left:125%;
+    font-weight: 350;
+    font-size: 60px;
+    
+}
+.mars p{
+    font-family: Segoe UI;
+    color: white;
+    margin-left: 20%;
+    margin-top: 15px;
+    font-weight: 150;
+    margin-left: 125%;
+    width: 56%;
+    text-align: justify;
+}
+
+
+.datas p{
+    color: white;
+    font-size: small;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-top: 0.5px solid white;
+    padding-top:20px;
+}
+.datas h3{
+    color: white;
+    font-size: larger;
+    text-transform: uppercase;
+    margin-top: -25px;
+    margin-left: 125%;
+    width: 56%;
+}
+.datas span {
+    margin-left: 40%;
+    
+}
+
+ul.submenu{
+    position: relative;
+    left: 115%;
+    display: inline-flex;
+}
+ul.submenu li{
+    margin: 0 30px;
+}

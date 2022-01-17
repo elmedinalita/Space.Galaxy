@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="tech.css">
+    <title>Galaxcy</title>
+</head>
+<body> 
+    <div id="time"></div>
+    
+    <!-- NavBar Start-->
+    <nav>
+        <ul>
+            <li><a href="index.html"><b>00</b> Home</a></li>
+            <li><a href="destination.html"><b>01</b> Destination</a></li>
+            <li><a href="crew.html"><b>02</b> Crew</a></li>
+            <li><a href="#"><b>03</b> Technology</a></li>
+        </ul>
+    </nav>  
+    <!-- NavBar End-->
+
+    <!-- Home Start-->
+    
+    <div class="slideshow">
+        <div style="text-align:center; display: inline-block;margin-right: 25px;">
+            <span class="dot active" onclick="currentSlide(1)">1</span>
+            <span class="dot" onclick="currentSlide(2)">2</span>
+            <span class="dot" onclick="currentSlide(3)">3</span>
+        </div>
+        
+        <div class="slide">
+            <div class="info"> 
+                <h6><b>03 </b> The Technology </h6>
+                <h1>Launch vehicle</h1>
+                <p>
+                    Launch vehicle, in spaceflight, a rocket -powered vehicle used to transport a spacecraft beyond Earth ’s atmosphere, either into orbit around Earth or to some other destination in outer space. Practical launch vehicles have been used to send crewed spacecraft, uncrewed space probes, and satellites into space since the 1950s.
+                </p>
+            </div>
+            <img  src="./image/tech1.jpg" alt="white solid circle">
+        </div>
+
+        <div class="slide" style="display: none;">
+            <div class="info"> 
+                <h6><b>03 </b> The Technology </h6>
+                <h1>Reusable Launch</h1>
+                <p>
+                    A reusable launch system is a launch system that allows for the reuse of some or all of the component stages. To date, several fully reusable suborbital systems and partially reusable orbital systems have been flown. The first reusable spacecraft to reach orbit was the Space Shuttle (in 1981).
+                </p>
+            </div>
+            <img  src="./image/tech2.jpg" alt="white solid circle">
+        </div>
+
+        <div class="slide" style="display: none;">
+            <div class="info"> 
+               
+                <h1>Distributed launch</h1>
+                <p>
+                    Involves the accomplishment of a goal with multiple spacecraft launches. A large spacecraft such as the International Space Station can be constructed by assembling modules in orbit, or in-space propellant transfer conducted to greatly increase the delta-V capabilities of a cislunar or deep space vehicle. Distributed launch enables space missions that are not possible with single launch architectures
+                </p>
+            </div>
+            <img src="./image/tech3.png" alt="white solid circle">
+        </div>
+    </div>
+
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>

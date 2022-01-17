@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(image/coverc.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+#time{
+    position: relative;
+    top: 80px;
+    margin: 0 25px;
+    color: #fff;
+    display: inline-block;
+    font-size: 30px;
+}
+nav{
+    position: relative;
+    left: 100%;
+    transform: translateX(-100%);
+    width: 50%;
+    background-color: rgb(26 65 92 / 78%);
+    filter: blur(50%);
+    border-top-left-radius: 2px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+   padding: 35px;
+   list-style-type: none;
+   color: white;
+   
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-family: Segoe UI;
+    
+    
+}
+a:hover{
+    border-bottom: 3px solid white;
+    border-width: 5%;
+    transition: 1s linear;
+}
+
+.slideshow{
+    margin-top: 150px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 25px;
+}
+
+.dot {
+    height: 55px;
+    width: 55px;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: table;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.dot.active {
+    background-color: rgb(255, 255, 255);
+    color: rgba(0, 0, 0, 0.707);
+}
+.slide{
+    display: flex;
+    max-width: 1050px;
+}
+.slide .info{
+    margin-right: 20px;
+    box-sizing: border-box;
+}
+.slide h6{
+    font-family: Segoe UI;
+    text-transform: uppercase;
+    color: white;
+    margin-left: 50px;
+    font-weight: 150;
+    font-size: 20px;
+    display: inline-block;
+}
+.slide h1{
+    font-family: Segoe UI;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 350;
+    font-size: 420%;
+}
+.slide p{
+    font-family: Segoe UI;
+    color: white;
+    margin-top: 15px;
+    font-weight: 150;
+    font-size: 18px;
+    text-align: justify;
+}
+.slide img{
+    max-width: 529px;
+  
+}
+
+
+.tech1{
+    width: 50%;
+    float: left;
+    margin-left: 10%;
+    margin-top: -10%;
+}
+.tech1 h5{
+    font-family: Segoe UI;
+    text-transform: uppercase;
+    color: white;
+   margin-left: 20%;
+    margin-top: 13%;
+    font-weight: 150;
+    font-size: 20px;
+     
+}
+
+.tech1 p{
+    font-family: Segoe UI;
+    color: white;
+    margin-left: 20%;
+    margin-top: 15px;
+    font-weight: 150;
+    font-size: 18px;
+    width: 70%;
+    text-align: justify;
+
+     
+}
+
+.no{
+    
+    color: white;
+    border-radius: 50%;
+    display: table;
+    padding: 10px;
+    margin-top: 4%;
+    font-size:30px;
+    
+}
+.image img {
+    width: 38%;
+    height: 50%;
+    margin-left:60% ;
+    margin-top:-20% ;
+}
+/*tech2*/
+.tech2{
+    width: 50%;
+    float: left;
+    margin-left: 10%;
+    margin-top: -10%;
+}
+.tech2 h5{
+    font-family: Segoe UI;
+    text-transform: uppercase;
+    color: white;
+   margin-left: 20%;
+    margin-top: 13%;
+    font-weight: 150;
+    font-size: 20px;
+     
+}
+
+.tech2 p{
+    font-family: Segoe UI;
+    color: white;
+    margin-left: 20%;
+    margin-top: 15px;
+    font-weight: 150;
+    font-size: 18px;
+    width: 70%;
+    text-align: justify;
+
+     
+}
+.tech2 h6{
+    font-family: Segoe UI;
+    text-transform: uppercase;
+    color: white;
+    margin-left: 20%;
+    margin-top: 30%;
+    font-weight: 150;
+    font-size: 20px;
+}
+
+.dot {
+    height: 55px;
+    width: 55px;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: table;
+    padding: 10px;
+    margin-top: 2%;
+    color: #fff;
+    font-size: 30px;
+    line-height: 55px;   
+}
+.no{
+    
+    color: white;
+    border-radius: 50%;
+    display: table;
+    padding: 10px;
+    margin-top: 4%;
+    font-size:30px;
+    
+}
+.image1 img {
+    width: 58%;
+    height: 50%;
+    margin-left:100% ;
+    margin-top:-50% ;
+}
+
+/*tech3*/
+.tech3{
+    width: 50%;
+    float: left;
+    margin-left: 10%;
+    margin-top: -10%;
+}
+.tech3 h5{
+    font-family: Segoe UI;
+    text-transform: uppercase;
+    color: white;
+   margin-left: 20%;
+    margin-top: 13%;
+    font-weight: 150;
+    font-size: 20px;
+     
+}
+
+.tech3 p{
+    font-family: Segoe UI;
+    color: white;
+    margin-left: 20%;
+    margin-top: 15px;
+    font-weight: 150;
+    font-size: 18px;
+    width: 70%;
+    text-align: justify;
+
+     
+}
+.tech3 h6{
+    font-family: Segoe UI;
+    text-transform: uppercase;
+    color: white;
+    margin-left: 20%;
+    margin-top: 30%;
+    font-weight: 150;
+    font-size: 20px;
+     
+}
+
+.dot {
+    height: 55px;
+    width: 55px;
+   border: 1px solid white;
+    border-radius: 50%;
+    display: table;
+    padding: 10px;
+    margin-top: 2%;
+   
+}
+.no{
+    
+    color: white;
+    border-radius: 50%;
+    display: table;
+    padding: 10px;
+    margin-top: 4%;
+    font-size:30px;
+    
+}
+.image2 img {
+    width: 128%;
+    height: 40%;
+    margin-left:170% ;
+    margin-top:-100% ;
+}
